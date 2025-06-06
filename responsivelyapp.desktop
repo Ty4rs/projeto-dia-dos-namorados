@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ResponsivelyApp
+Comment=Test responsive web designs
+Exec=/home/joaocl/Applications/ResponsivelyApp-1.16.0.AppImage --no-sandbox
+Icon=/home/joaocl/Imagens/Irelia_55.jpg
+
+Terminal=false
+Type=Application
+Categories=Development;WebDevelopment;

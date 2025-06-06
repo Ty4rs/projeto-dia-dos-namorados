@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 200rem;
+
+}
+.main-containner{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.main-containner .top{
+    background-image: url("src/img/f426b5d5-c2da-4352-b715-c46fc17d89a2.jpeg");
+    background-size: cover;
+    background-position: 20%;
+    height: 36rem;
+    width: 100%;
+        box-shadow: inset 0px 0px 90px 10px rgba(0, 0, 0, 0.555); /* Sombra preta com 50% de opacidade */
+        position: relative;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+    background-color: blue;
+    position: relative;
+
+
+}
+
+.main-containner .top::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0px 0px 70px 70px rgb(0, 0, 0);
+
+}
+.main-containner .top::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 320px 300px rgba(0, 0, 0, 0.897);
+
+}
+
+.main-containner .top h1:first-child{
+    display: block;
+    position: absolute;
+    min-width: calc(50% - 1.2rem);
+    transform: translateY(-5rem);
+    color: white;
+    z-index: 1;
+    font-family: 'Imperial Script', cursive;
+    font-weight: 200;
+    font-size: 16vw;
+    margin-left: 0.8rem;
+    bottom: 2.6rem;
+    
+    
+
+  
+}
+.main-containner .top h1#namoradas{
+    display: block;
+    min-width: calc(50% - 1.2rem);
+    transform: translateY(-5rem);
+    color: white;
+    z-index: 2;
+    font-family: 'Imperial Script', cursive;
+    font-weight: 200;
+    font-size: 16vw;
+    margin-left: 0.8rem;
+    right: 1.2rem;
+    bottom: 0rem;
+    position: absolute;
+
+}
+.main-containner .top h3{
+    position: absolute;
+    font-family: 'Imperial Script', cursive;
+    color: rgb(255, 3, 3);
+    bottom:3.4rem;
+    font-size: 10vw;
+    right: 1rem;
+    z-index: 1;
+        font-weight: 200;
+}
+.main-containner .cont1{
+    color: white;
+    z-index: 2;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-containner .cont1 h2{
+    margin-bottom: 0.5rem;;
+}
+p{
+    text-align: center;
+}
+.beijo{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    background-color: white;
+
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    position: relative;
+}
+.fotosc{
+    display: flex;
+    justify-content: center;
+    
+    width: 17rem;
+    height: 10rem;
+    background-color: rgb(233, 229, 229);
+    background-image: url("https://img.freepik.com/vetores-gratis/desenho-de-fundo-de-textura-de-papel-envelhecido_60389-141.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    padding: 0.7rem 0.3rem 13rem 0.3rem;
+    position: relative;
+    box-shadow: 0 0 2rem 0.5rem rgba(0, 0, 0, 0.438);
+}
+.fotosc img{
+    width: 16rem;
+    height: fit-content;
+
+}
+#ft1{
+    top: 0rem;
+    position: absolute;
+    z-index: -2;
+    transform: rotate(-9deg);
+}
+#ft2{
+    top: 16rem;
+    position: absolute;
+    z-index: -2;
+    
+}
+#ft3{
+    top: 36rem;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(6deg);
+    
+}
+
+.fotosc p{
+    color: rgb(146, 4, 4);
+    position: absolute;
+    bottom: 2rem;
+    font-size: 3.9rem;
+        font-family: 'Imperial Script', cursive;
+    font-weight: 200;
+}
